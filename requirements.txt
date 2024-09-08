@@ -1,0 +1,6 @@
+streamlit==1.19.0
+pdfminer.six==20201018
+langchain==0.0.8
+langchain-community==0.0.8
+chromadb==0.4.1
+cohere==2.0.0
