@@ -3,7 +3,7 @@
 ---
 
 # ChatBot: AI-Powered Q&A with PDF Uploads
-
+![Screenshot from 2024-05-17 08-42-03](https://github.com/user-attachments/assets/cee40e75-9957-4e71-8493-433a8cd9db89)
 This is a powerful AI chatbot that leverages *Ollama API* for running models locally, *Phi 2 model by Microsoft* (with 2.7 billion parameters), and *Cohere embeddings* stored in *ChromaDB* to deliver accurate and context-rich responses. The chatbot has a user-friendly interface built using *Streamlit*, allowing users to ask questions and upload PDFs for document-based query answering.
 
 ## Key Features
@@ -25,29 +25,9 @@ This is a powerful AI chatbot that leverages *Ollama API* for running models loc
 2. The chatbot processes the user's query using *Phi 2 model* and retrieves relevant information from the *Cohere embeddings* stored in *ChromaDB*.
 3. If a PDF is uploaded, the bot processes it to generate embeddings and fetches the appropriate responses from the document.
 
-## Installation
-1. Clone the repository:
-    bash
-    git clone https://github.com/your-username/chatbot-project.git
-    
-2. Install dependencies:
-    bash
-    pip install -r requirements.txt
-    
-3. Set up the required API keys for *Ollama, **Cohere, and **ChromaDB*.
-4. Run the Streamlit app:
-    bash
-    streamlit run app.py
-    
+## Screenshots
+![Screenshot from 2024-09-09 03-11-20](https://github.com/user-attachments/assets/685f7914-573b-4bdb-b8ec-a1badbb15fb1)
+![Screenshot from 2024-09-09 03-13-42](https://github.com/user-attachments/assets/4d69910b-3350-40ad-b20c-46fca19e882b)
+![Screenshot from 2024-09-09 03-14-05](https://github.com/user-attachments/assets/4f708d9b-de3d-41cf-b6c1-dc4035870fc3)
 
-## Contributions
-Feel free to open issues or pull requests for any improvements or bug fixes.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-### GitHub Repository Description
-
-A powerful AI chatbot that uses Ollama API (local model execution), Microsoft Phi 2 model (2.7 billion parameters), and Cohere embeddings stored in ChromaDB. Features include answering user queries and allowing PDF uploads for document-based questions. Powered by a Streamlit UI for an easy-to-use interface.
