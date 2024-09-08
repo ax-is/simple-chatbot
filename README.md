@@ -1,5 +1,7 @@
 # ChatBot: AI-Powered Q&A with PDF Uploads
+
 ![Screenshot from 2024-05-17 08-42-03](https://github.com/user-attachments/assets/cee40e75-9957-4e71-8493-433a8cd9db89)
+
 This is a powerful AI chatbot that leverages *Ollama API* for running models locally, *Phi 2 model by Microsoft* (with 2.7 billion parameters), and *Cohere embeddings* stored in *ChromaDB* to deliver accurate and context-rich responses. The chatbot has a user-friendly interface built using *Streamlit*, allowing users to ask questions and upload PDFs for document-based query answering.
 
 ## Key Features
